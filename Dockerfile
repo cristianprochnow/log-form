@@ -30,6 +30,8 @@ RUN apt -y install mariadb-client
 RUN apt -y install openssl
 RUN apt -y install curl
 
+COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
+
 # enable mods
 RUN a2enmod ssl
 RUN a2enmod rewrite
