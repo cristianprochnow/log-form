@@ -1,0 +1,14 @@
+{
+    "name": "cristianprochnow/log_form",
+    "description": "App for form and logging.",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^3.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cristianprochnow"
+        }
+    ]
+}
