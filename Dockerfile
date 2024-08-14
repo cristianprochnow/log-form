@@ -20,7 +20,6 @@ RUN apt -y install php8.2-mysql
 RUN apt -y install php8.2-zip
 RUN apt -y install php8.2-mysqli
 RUN apt -y install php8.2-curl
-RUN apt -y install php8.2-psr
 RUN apt -y install php8.2-redis
 RUN apt -y install php8.2-memcached
 RUN apt -y install php8.2-xml

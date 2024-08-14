@@ -10,5 +10,8 @@
         {
             "name": "cristianprochnow"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {"LogForm\\": "src/"}
+    }
 }
