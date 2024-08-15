@@ -17,6 +17,10 @@
             self::getLogger()->info($message);
         }
 
+        public static function warning(string $message): void {
+            self::getLogger()->warning($message);
+        }
+
         private static function getLogger(): Logger {
             if (empty(self::$logger)) {
                 self::$logger = new Logger('log');
